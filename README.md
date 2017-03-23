@@ -26,6 +26,7 @@ I modify the keras
 
 Also, in order to comepare the code style between two Keras model.
 I also make both of them in the same NN.
+
 The [Model](http://nbviewer.jupyter.org/github/moonstarsky37/article-beginner-webserver/blob/gh-pages/mnist_model_architecture_Rnn_LSTM_Model.ipynb)
 version.
 
