@@ -1,3 +1,4 @@
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/moonstarsky37/article-beginner-webserver/blob/gh-pages/LICENSE)
 
 #Ziyu-blog
 This page only list some article basic idea.
@@ -25,8 +26,11 @@ I modify the keras
 
 Also, in order to comepare the code style between two Keras model.
 I also make both of them in the same NN.
-[Model](http://nbviewer.jupyter.org/github/moonstarsky37/article-beginner-webserver/blob/gh-pages/mnist_model_architecture_Rnn_LSTM_Model.ipynb)
-[Sequential](http://nbviewer.jupyter.org/github/moonstarsky37/article-beginner-webserver/blob/gh-pages/mnist_model_architecture_Rnn_LSTM_Sequential.ipynb)
+The [Model](http://nbviewer.jupyter.org/github/moonstarsky37/article-beginner-webserver/blob/gh-pages/mnist_model_architecture_Rnn_LSTM_Model.ipynb)
+version.
+
+The [Sequential](http://nbviewer.jupyter.org/github/moonstarsky37/article-beginner-webserver/blob/gh-pages/mnist_model_architecture_Rnn_LSTM_Sequential.ipynb)
+version.
 
 ------------------
 
