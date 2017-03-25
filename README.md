@@ -4,7 +4,7 @@
 This page only list some article basic idea.
 
 ## Article : [Python網站部署的基本流程-for
-beginner](https://moonstarsky37.github.io/article-beginner-webserver/article1.html)
+[beginner](https://moonstarsky37.github.io/article-beginner-webserver/article1.html)
 
 當你想要架構一個網站的時候，我們也必須先知道一些關於網站是如何呈現給人的知識
 再者，我們瞭解了這些基本之後，我們又應該從哪些框架(framework)開始練習比較好。
