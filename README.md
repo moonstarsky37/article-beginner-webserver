@@ -35,4 +35,18 @@ version.
 
 ------------------
 
+
+## Article : Use real data from UCI
+
+After some introduction of NN, we want to use more real data to practice.
+We use the datasets form the [UCI datasets](http://archive.ics.uci.edu/ml/datasets.html).
+
+We use the [Diabetes datasets](http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes) as example.
+The .data is a csv file, and the column from one to eight is some features of patients and last column is whether the patient have diabetes.
+
+The result is below.
+[Diabetes practice](http://nbviewer.jupyter.org/github/moonstarsky37/article-beginner-webserver/blob/gh-pages/NN-practice-pima-indians-diabetes.ipynb)
+
+
+------------------
 ## To be continue...
