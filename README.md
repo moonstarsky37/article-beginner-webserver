@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-You can see the web in [here](https://moonstarsky37.github.io/article-beginner-webserver/)
-=======
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/moonstarsky37/article-beginner-webserver/blob/gh-pages/LICENSE)
 
 #Ziyu-blog
@@ -57,9 +54,19 @@ The result is below.
 
 Sometimes when we need to see the go-term relation, we will present as a set.
 We also want to see visualization part.I simplfy to just a simple code
-from ![here](https://github.com/tanghaibao/goatools).
+from [here](https://github.com/tanghaibao/goatools) .
 This code can get the figure like
+![obo-relationship](https://github.com/moonstarsky37/article-beginner-webserver/blob/gh-pages/obo_relationships/relation.png)
 
+Just need
+```
+python plot_go_term.py --id=GOTERMID PATH
+```
+where the PATH need to use your [obo file](http://geneontology.org/page/download-ontology).
+```
+eg.
+python plot_go_term.py --id=GO:0000002 ../go-basic.obo
+```
 
+See code [here](https://github.com/moonstarsky37/article-beginner-webserver/tree/gh-pages/obo_relationships)
 ## To be continue...
->>>>>>> 5e5d028e8dc61926edc660875aab3fe8aaf276ed
