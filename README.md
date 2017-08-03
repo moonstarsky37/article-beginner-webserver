@@ -60,12 +60,12 @@ This code can get the figure like
 
 Just need
 ```
-python plot_go_term.py --id=GOTERMID PATH
+python main.py --id=GOTERMID PATH
 ```
 where the PATH need to use your [obo file](http://geneontology.org/page/download-ontology).
 ```
 eg.
-python plot_go_term.py --id=GO:0000002 ../go-basic.obo
+python main.py --id=GO:0000002 ../go-basic.obo
 ```
 
 See code [here](https://github.com/moonstarsky37/article-beginner-webserver/tree/gh-pages/obo_relationships)
