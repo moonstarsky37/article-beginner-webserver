@@ -1,15 +1,6 @@
 from __future__ import print_function
 from collections import defaultdict
 import sys, os, re
-import base64
-# mycode = b"sys.stdout.write('Ziuy nott\nLoad obo file {OBO}\n'.format(OBO=obo_file))"
-# secret = base64.b64encode(mycode)
-# # secret = b'data to be encoded'
-# print(secret)
-#
-# mydecode = base64.b64decode(b'c3lzLnN0ZG91dC53cml0ZSgnWml1eSBub3R0CkxvYWQgb2JvIGZpbGUge09CT30KJy5mb3JtYXQoT0JPPW9ib19maWxlKSk=')
-# eval(compile(mydecode,'<string>','exec'))
-
 
 class Parsefile(object):
     def __init__(self, obo_file, optional_attrs=None):
@@ -17,12 +8,9 @@ class Parsefile(object):
         self.format_ver = None
         self.data_ver = None
         self.typedefs = {}
-        self.convert = b'c'
 
         if os.path.isfile(obo_file):
             self.obo_file = obo_file
-            # highlight
-            self.convert += b'HJ'
         else:
             raise Exception("COULD NOT READ({OBO})\n")
 
@@ -30,8 +18,6 @@ class Parsefile(object):
         with open(self.obo_file) as fstream:
             rec_curr = None # Stores current GO Term
             typedef_curr = None  # Stores current typedef
-            # per Bline num
-            self.convert += b'pbn'
             for lnum, line in enumerate(fstream):
                 # Lines start with any of: [Term], [Typedef], /^\S+:/, or /^\s*/
                 if self.data_ver is None:
@@ -62,10 +48,8 @@ class Parsefile(object):
 
     def _init_obo_ver(self, line):
         """Query save obo version and release."""
-        self.convert += b'fmt'
         if line[0:14] == "format-version":
             self.format_ver = line[16:-1]
-        # self.convert +='data'
         if line[0:12] == "data-version":
             self.data_ver = line[14:-1]
 
